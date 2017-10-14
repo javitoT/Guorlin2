@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.javiertorres.guorlin.contacts">
+
+    <Button
+        android:text="Contacts"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="221dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button10"
+        android:background="@drawable/couch2" />
+
+    <Button
+        android:text="Guorlin chat"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button11" />
+
+    <Button
+        android:text="call your friends"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button11"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11"
+        android:layout_marginTop="19dp"
+        android:id="@+id/button12" />
+
+    <Button
+        android:text="invite new friends"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button12"
+        android:layout_alignRight="@+id/button12"
+        android:layout_alignEnd="@+id/button12"
+        android:layout_marginTop="18dp"
+        android:id="@+id/button13" />
+
+    <TextView
+        android:text="Click on the image to open your Guorlin Contact List, select who are you gonna share the trip with and start enjoying the experience."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

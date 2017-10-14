@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.javiertorres.guorlin.MainActivity">
+
+
+    <Button
+        android:text="News"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:layout_weight="1"
+        android:background="@drawable/novedades"
+        android:onClick="gotonews" />
+
+    <Button
+        android:text="Experiences"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button3"
+        android:layout_weight="1"
+        android:background="@drawable/experiencias"
+        android:onClick="gotoexp" />
+
+    <Button
+        android:text="Contacts"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:layout_weight="1"
+        android:background="@drawable/contactos"
+        android:onClick="gotocontacts"/>
+
+    <Button
+        android:text="Passport"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:background="@drawable/pasaporte"
+        android:onClick="gotopass"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="GUORLIN"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:id="@+id/button1"
+        android:onClick="gotoguorlin"/>
+
+</LinearLayout>
